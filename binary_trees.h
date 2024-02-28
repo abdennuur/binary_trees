@@ -9,10 +9,10 @@
 /**
  * struct binary_tree_s - Binary tree node
  *
- * @n: Integer stored in the node
- * @parent: Pointer to the parent node
- * @left: Pointer to the left child node
- * @right: Pointer to the right child node
+ * @n: Int stored in node
+ * @parent: Ptr to parent node
+ * @left: Ptr to left child node
+ * @right: Ptr to right child node
  */
 struct binary_tree_s
 {
@@ -28,9 +28,9 @@ typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
 
 /**
- * struct levelorder_queue_s - Level order traversal queue.
- * @node:  node of a binary tree.
- * @next: The next node to traverse to in the binary tree.
+ * struct levelorder_queue_s - Level order traversal queue
+ * @node:  node of binary tree
+ * @next: next node to traverse to in binary tree
  */
 typedef struct levelorder_queue_s
 {
